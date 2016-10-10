@@ -1,0 +1,24 @@
+---
+title: "Data Product - Peer Graded Assessment"
+author: "Herminio Vazquez"
+date: "10/10/2016"
+output: html_document
+---
+
+This document contains the submission for the first peer graded assignment in the Coursera course of Building Data Products from John Hopkins University.
+
+```{r}
+library(leaflet)
+```
+
+Next we print the date as requested in the rubric of this assignment
+```{r}
+Sys.Date()
+```
+
+Finally we print the coordinates of the location where I live
+
+``` {r}
+my_map <- leaflet() %>% addTiles() %>% addMarkers(lat=39.4697500, lng=-0.3773900, popup="Herminio's City")
+my_map
+```
