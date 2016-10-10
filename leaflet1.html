@@ -79,10 +79,11 @@ img {
 <pre class="r"><code>Sys.Date()</code></pre>
 <pre><code>## [1] &quot;2016-10-10&quot;</code></pre>
 <p>Finally we print the coordinates of the location where I live</p>
-<pre class="r"><code>my_map &lt;- leaflet() %&gt;% addTiles() %&gt;% addMarkers(lat=39.4697500, lng=-0.3773900, popup=&quot;Herminio's City&quot;)
+<pre class="r"><code># Valencia, Spain
+my_map &lt;- leaflet() %&gt;% addTiles() %&gt;% addMarkers(lat=39.4697500, lng=-0.3773900, popup=&quot;Herminio's City&quot;)
 my_map</code></pre>
-<p><div id="htmlwidget-1708" style="width:672px;height:480px;" class="leaflet"></div>
-<script type="application/json" data-for="htmlwidget-1708">{"x":{"calls":[{"method":"addTiles","args":["http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap</a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>"}]},{"method":"addMarkers","args":[39.46975,-0.37739,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Herminio's City",null,null]}],"limits":{"lat":[39.46975,39.46975],"lng":[-0.37739,-0.37739]}},"evals":[]}</script></p>
+<p><div id="htmlwidget-3063" style="width:672px;height:480px;" class="leaflet"></div>
+<script type="application/json" data-for="htmlwidget-3063">{"x":{"calls":[{"method":"addTiles","args":["http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap</a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>"}]},{"method":"addMarkers","args":[39.46975,-0.37739,null,null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Herminio's City",null,null]}],"limits":{"lat":[39.46975,39.46975],"lng":[-0.37739,-0.37739]}},"evals":[]}</script></p>
 
 
 </div>

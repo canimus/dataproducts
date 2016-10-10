@@ -19,6 +19,7 @@ Sys.Date()
 Finally we print the coordinates of the location where I live
 
 ``` {r}
+# Valencia, Spain
 my_map <- leaflet() %>% addTiles() %>% addMarkers(lat=39.4697500, lng=-0.3773900, popup="Herminio's City")
 my_map
 ```
